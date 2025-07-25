@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Бастіон</title>
+</head>
+
+<body
+    class="bg-gray-900 text-gray-100 min-h-screen relative overflow-x-hidden bg-[url(https://5e.tools/img/book/XDMG/195-10-002.rogue-bastion.webp)] bg-cover bg-center bg-no-repeat bg-fixed">
+    <main class="bg-gray-900 opacity-90 max-w-3xl mx-auto px-4 py-6">
+        <article class="prose prose-invert prose-yellow dark:prose-invert dark:prose-yellow max-w-none">
+            <h1 id="chapter-8-bastions" class="text-3xl font-bold text-yellow-400 mb-4">Бастіон</h1>
+            <p>
+                Бастіон — це місце, яке належить персонажу гравця: дім, укріплення та місце сили, яке персонаж розвиває протягом кампанії. Бастіон пропонує персонажу тимчасовий притулок від небезпечного світу пригод, і він надає можливості для персонажа створювати магічні предмети, проводити дослідження, збирати отрути, будувати кораблі та виконувати ряд інших дій.
+            </p>
+            <p>
+                Кожен бастіон складається з приміщень, що виконують як базові, так і особливі функції, такі як бібліотеки, звіринці та майстерні (див. "<a href="#basic-facilities">Базові приміщення</a>" та "<a href="#special-facilities">Спеціальні приміщення</a>").
+            </p>
+            <h2 id="bastion-turns" class="text-2xl font-semibold text-yellow-300 mt-8 mb-2">Ходи бастіону</h2>
+            <p>
+                У міру проходження кампанії виконуються ходи бастіону, щоб відобразити діяльність та події, що відбувається в їхніх бастіонах, незалежно від того, присутні вони там чи ні. Під час ходу бастіону персонаж може віддавати накази спеціальним найманцям в спеціальних приміщеннях у своєму бастіоні, або віддавати наказ «Підтримувати» всьому бастіону (див. «Накази»). Хід бастіона відбувається раз на 7 днів.
+            </p>
+            <h2 id="bastion-map" class="text-2xl font-semibold text-yellow-300 mt-8 mb-2">Карта Бастіону</h2>
+            <p>Ви можете самі визначати планування вашого бастіону, налаштовуючи його приміщення на свій розсуд. Бастіон
+                складається з <em>базових</em> та <em>особливих приміщень</em>, які ви можете розміщувати на карті так,
+                як вам зручно.
+            </p>
+            <p>Також <em>базові</em> та <em>особливі приміщення</em> можуть мати такі особливості:</p>
+
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong class="font-semibold text-yellow-300">Шафи.</strong> Базове або спеціальне приміщення може
+                    мати одну або кілька шаф, туалетів або подібних приміщень. Шафи повинні бути всередині приміщення і
+                    не можуть збільшувати площу приміщення в квадратах. Ці особливості безкоштовні.</li>
+                <li><strong class="font-semibold text-yellow-300">Коридори, пандуси та сходи.</strong> Приміщення може
+                    містити один або кілька коридорів, пандусів або сходів, що ведуть до інших приміщень у бастіоні. Ці
+                    особливості безкоштовні.</li>
+                <li><strong class="font-semibold text-yellow-300">Оборонні стіни.</strong> Персонаж може додати оборонні
+                    стіни навколо свого бастіону. Оборонна стіна має висоту 20 футів і може включати доріжку вздовж
+                    свого верху, з засобом доступу до неї (наприклад, драбина або підйомник). Кожен 5-футовий квадрат
+                    оборонної стіни займає 10 днів на будівництво і коштує 250 GP. Якщо бастіон персонажа повністю
+                    оточений оборонними стінами і піддається нападу, то його захист буде легшим, а
+                    захисники понесуть менші втрати.</li>
+                <li><strong class="font-semibold text-yellow-300">Двері та Вікна.</strong> Кожне приміщення має одну або
+                    кілька дверей і зашторених вікон, розміщених де завгодно, на розсуд гравця, включаючи замкнені
+                    двері, секретні двері та решітки. Ці особливості безкоштовні.</li>
+            </ul>
+            <h2 id="combining-bastions" class="text-2xl font-semibold text-yellow-300 mt-8 mb-2">Об'єднання бастіонів
+            </h2>
+            <p>Два або більше гравців можуть об'єднати бастіони своїх персонажів в одну структуру. Це не змінює
+                кількість спеціальних приміщень, які може мати кожен бастіон, як ці спеціальні приміщення працюють, або
+                хто віддає накази кожному бастіону. Кожен бастіон зберігає своїх найманців, яких не можна відправити або
+                поділити з
+                іншим бастіоном. Захист бастіону проходить інакше: якщо якась подія позбавляє бастіон захисників одного
+                персонажа, інший персонаж може перенести всі або частину цих втрат на захисників свого бастіону, за
+                умови, що два бастіони об'єднані.
+            </p>
+            <h2 id="facility-space" class="text-2xl font-semibold text-yellow-300 mt-8 mb-2">Простір приміщень</h2>
+            <p>Кількість простору в базовому або спеціальному приміщенні визначає його максимальну площу в квадратах по
+                5 футів, як показано в таблиці Простір приміщень. Гравець може налаштувати квадрати приміщення на карті
+                свого бастіону на свій розсуд. Квадрати можуть бути розташовані так, щоб площа приміщення розподілялася
+                на кілька рівнів або поверхів.</p>
+            <table class="w-full text-left border-collapse rounded-lg overflow-hidden shadow-lg bg-gray-800 mt-8 mb-2">
+                <thead>
+                    <tr class="bg-yellow-300 text-gray-900">
+                        <th class="px-4 py-2 font-bold">Простір</th>
+                        <th class="px-4 py-2 font-bold">Максимальна площа</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Тісний</td>
+                        <td class="px-4 py-2 border-b border-gray-700">4 квадрати</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Просторий</td>
+                        <td class="px-4 py-2 border-b border-gray-700">16 квадратів</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2">Великий</td>
+                        <td class="px-4 py-2">36 квадратів</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 id="basic-facilities" class="text-2xl font-semibold text-yellow-300 mt-8 mb-2">Базові приміщення</h2>
+            <p>
+                Бастіон персонажа починається з двох безкоштовних базових приміщень, які гравець персонажа вибирає з
+                списку Базових приміщень нижче. Одне з обраних приміщень є Тісним, а інше - Просторим (див. таблицю
+                <em>Простір приміщень</em>). Бастіон може мати більше ніж одне з кожного базового приміщення.
+            </p>
+            <h4 id="basic-facilities-list" class="text-lg font-bold text-yellow-200 mt-4 mb-2">Базові приміщення</h4>
+            <ul class="grid grid-cols-2 gap-3 mb-4">
+                <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Спальня</li>
+                <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Їдальня</li>
+                <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Гостьова кімната</li>
+                <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Внутрішній двір</li>
+                <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Кухня</li>
+                <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Склад</li>
+            </ul>
+            <p>
+                Базове приміщення постачається з немагічними меблями та декором, відповідними для цього приміщення.
+            </p>
+            <p>
+                <span class="font-semibold text-yellow-300">Базові приміщення не мають жодних ігрових ефектів</span>,
+                та створені для рольового відіграшу.
+            </p>
+
+            <p>
+                Персонаж може додати нові базові приміщення або розширити існуючі, витрачаючи гроші та час, як
+                обговорюється в наступних розділах. Будь-яка кількість базових приміщень може бути додана або
+                розширена одночасно. Персонажу не потрібно бути в своєму бастіоні, поки базові приміщення
+                додаються або розширюються.
+            </p>
+            <h3 id="adding-basic-facilities" class="text-xl font-semibold text-yellow-200 mt-6 mb-2">Додавання базових
+                приміщень</h3>
+            <p>
+                Персонаж може додати базове приміщення до свого бастіону, витрачаючи гроші та час. Вартість додавання
+                базового приміщення та час, необхідний для цього, залежать від простору приміщення, як показано в
+                таблиці нижче.
+            </p>
+            <div class="overflow-x-auto my-4 rounded-lg shadow-lg">
+                <table class="min-w-full text-left border-collapse bg-gray-800 rounded-lg">
+                    <thead>
+                        <tr class="bg-yellow-300 text-gray-900">
+                            <th class="px-4 py-2 font-bold">Простір приміщення</th>
+                            <th class="px-4 py-2 font-bold text-right">Вартість</th>
+                            <th class="px-4 py-2 font-bold text-right">Час</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2 border-b border-gray-700">Тісний</td>
+                            <td class="px-4 py-2 border-b border-gray-700 text-right">500 GP</td>
+                            <td class="px-4 py-2 border-b border-gray-700 text-right">20 днів</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2 border-b border-gray-700">Просторий</td>
+                            <td class="px-4 py-2 border-b border-gray-700 text-right">1,000 GP</td>
+                            <td class="px-4 py-2 border-b border-gray-700 text-right">45 днів</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2">Великий</td>
+                            <td class="px-4 py-2 text-right">3,000 GP</td>
+                            <td class="px-4 py-2 text-right">125 днів</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3 id="enlarging-basic-facilities" class="text-xl font-semibold text-yellow-200 mt-6 mb-2">Розширення
+                базових приміщень</h3>
+            <p>
+                В грі немає жодних переваг від розширення базового приміщення, але персонаж може розширити приміщення з
+                косметичних причин або для збільшення розміру бастіону.
+            </p>
+            <p>
+                Персонаж може витратити гроші та час, щоб збільшити простір базового приміщення в своєму бастіоні на
+                одну
+                категорію, як показано в таблиці нижче.
+            </p>
+            <div class="overflow-x-auto my-4 rounded-lg shadow-lg">
+                <table class="min-w-full text-left border-collapse bg-gray-800 rounded-lg">
+                    <thead>
+                        <tr class="bg-yellow-300 text-gray-900">
+                            <th class="px-4 py-2 font-bold">Збільшення простору</th>
+                            <th class="px-4 py-2 font-bold text-right">Вартість</th>
+                            <th class="px-4 py-2 font-bold text-right">Час</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2 border-b border-gray-700">Тісний до Просторий</td>
+                            <td class="px-4 py-2 border-b border-gray-700 text-right">500 GP</td>
+                            <td class="px-4 py-2 border-b border-gray-700 text-right">25 днів</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2">Просторий до Великого</td>
+                            <td class="px-4 py-2 text-right">2,000 GP</td>
+                            <td class="px-4 py-2 text-right">80 днів</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h2 id="special-facilities" class="text-2xl font-semibold text-yellow-300 mt-8 mb-2">Спеціальні приміщення
+            </h2>
+            <p class="mb-2">Спеціальні приміщення — це локації бастіону, де певні дії приносять ігрові переваги.
+                Спочатку бастіон персонажа може мати максимум <span class="font-semibold text-yellow-300">2 спеціальних
+                    приміщення</span>, умови яких він задовольняє. Кожне спеціальне приміщення може бути обране лише
+                один раз, якщо в його описі не сказано інше.</p>
+            <p class="mb-2">На рівні <span class="font-semibold text-yellow-300">9</span> персонаж збільшує свій
+                максимум на два додаткові спеціальні приміщення на вибір; він збільшує його ще на одне додаткове
+                приміщення на рівні <span class="font-semibold text-yellow-300">13</span> і на ще одне на рівні <span
+                    class="font-semibold text-yellow-300">17</span>. Таблиця <span class="italic">Набуття спеціальних
+                    приміщень</span> показує загальну кількість спеціальних приміщень у бастіоні персонажа. Кожне нове
+                спеціальне приміщення будується тиждень після оплати його вартості.</p>
+            <p class="mb-4">Кожного разу, коли персонаж підвищує рівень, він може замінити одне з спеціальних приміщень
+                свого бастіону на інше, для якого він кваліфікується.</p>
+            <div class="overflow-x-auto my-4 rounded-lg shadow-lg">
+                <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+                    <thead>
+                        <tr class="bg-yellow-300 text-gray-900">
+                            <th class="px-4 py-2 font-bold">Рівень</th>
+                            <th class="px-4 py-2 font-bold">Максимум спеціальних приміщень</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2 border-b border-gray-700">5</td>
+                            <td class="px-4 py-2 border-b border-gray-700">2</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2 border-b border-gray-700">9</td>
+                            <td class="px-4 py-2 border-b border-gray-700">4</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2 border-b border-gray-700">13</td>
+                            <td class="px-4 py-2 border-b border-gray-700">5</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-4 py-2">17</td>
+                            <td class="px-4 py-2">6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3 id="requirements" class="text-xl font-semibold text-yellow-200 mt-6 mb-2">Вимоги</h3>
+            <p class="mb-2">Кожне спеціальне приміщення має рівень. Персонаж повинен бути цього рівня або вище, щоб
+                отримати це приміщення. Спеціальне приміщення також може мати попередню умову, яку персонаж повинен
+                виконати, щоб отримати це приміщення. Наприклад, лише персонаж, який може використовувати Арканічний
+                Фокус або інструмент як Фокус Заклинань, може мати <em>Арканічне Дослідження</em>.</p>
+            <h3 id="space" class="text-xl font-semibold text-yellow-200 mt-6 mb-2">Простір</h3>
+            <p class="mb-2">Спеціальне приміщення займає певну кількість простору (див. "<em>Простір приміщення</em>").
+                Гравець може налаштувати квадрати спеціального приміщення на карті бастіону за бажанням. Спеціальне
+                приміщення може бути розширене, щоб надати додаткові переваги, якщо в його описі це сказано.</p>
+            <h3 id="hirelings" class="text-xl font-semibold text-yellow-200 mt-6 mb-2">Найманці</h3>
+            <p class="mb-2">Спеціальне приміщення постачається з одним або кількома найманцями, які працюють у
+                приміщенні, підтримують його та виконують <em>накази бастіону</em> там, як описано в наступному розділі.
+                Гравець може призначити імена та особистості найманцям у своєму бастіоні персонажа, використовуючи ті ж
+                інструменти, що й МД для <em>створення НПС</em> (див. <em>розділ 3</em>).</p>
+            <p class="mb-4">Кожне спеціальне приміщення в бастіоні генерує достатньо доходу, щоб оплатити зарплату своїх
+                найманців. Найманці виконують накази бастіону і є вірними власнику бастіону.</p>
+            <h3 id="orders" class="text-xl font-semibold text-yellow-200 mt-6 mb-2">Накази</h3>
+            <p class="mb-2">На ході бастіону персонаж у своєму бастіоні може видавати спеціальні накази — які
+                називаються наказами бастіону — одному або кільком спеціальним приміщенням свого бастіону. Персонаж не
+                зобов'язаний видавати накази всім спеціальним приміщенням у своєму бастіоні відразу.</p>
+            <p class="mb-2">Наказ на підтримку є незвичайним; він видається всьому бастіону, а не одному або кільком
+                спеціальним приміщенням. Якщо персонаж не знаходиться у своєму бастіоні на даний момент, бастіон діє
+                так, ніби йому був виданий наказ на підтримку на цьому ході, якщо тільки власник не може спілкуватися з
+                найманцями бастіону, використовуючи заклинання <em>Передача</em> або подібну магію.</p>
+            <p class="mb-4">Накази є такими:</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                <div class="bg-gray-800 rounded-lg p-4 shadow border border-yellow-900">
+                    <h4 id="craft" class="font-bold text-yellow-300 mb-1">Створення</h4>
+                    <p>Найманці в спеціальному приміщенні створюють предмет, який можна виготовити в цьому приміщенні.
+                        Протягом часу, необхідного для виготовлення предмета, приміщення не може бути використано для
+                        виготовлення нічого іншого, навіть якщо спеціальна здатність дозволяє приміщенню виконувати два
+                        накази одночасно. Найманці мають навички роботи з інструментами ремісника, як зазначено в описі
+                        приміщення.</p>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 shadow border border-yellow-900">
+                    <h4 id="empower" class="font-bold text-yellow-300 mb-1">Посилення</h4>
+                    <p>Спеціальне приміщення надає тимчасове посилення вам або комусь іншому.</p>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 shadow border border-yellow-900">
+                    <h4 id="harvest" class="font-bold text-yellow-300 mb-1">Збирання</h4>
+                    <p>Найманці збирають ресурси, що виробляються в спеціальних спорудах. Протягом часу, необхідного для
+                        збору ресурсів, споруда не може використовуватися для збору інших ресурсів, навіть якщо
+                        спеціальна здатність дозволяє споруді виконувати два накази одночасно.</p>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 shadow border border-yellow-900">
+                    <h4 id="maintain" class="font-bold text-yellow-300 mb-1">Підтримка</h4>
+                    <p>Всі найманці Бастіону зосереджуються на утриманні Бастіону, а не на виконанні наказів у
+                        спеціальних спорудах. Видача цього наказу забороняє видачу інших наказів Бастіону в поточному
+                        ході Бастіону. Кожного разу, коли видається наказ «Утримання», DM кидає кубик один раз на
+                        таблиці подій Бастіону. Події Бастіону вирішуються до наступного ходу Бастіону.</p>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 shadow border border-yellow-900">
+                    <h4 id="recruit" class="font-bold text-yellow-300 mb-1">Найм</h4>
+                    <p>Найманці вербують істот до Бастіону. Ці істоти можуть включати одного або декількох захисників
+                        Бастіону, основною метою яких є захист Бастіону в разі нападу (див. «Події Бастіону»). Бастіон
+                        генерує достатній дохід, щоб забезпечити потреби своїх захисників.</p>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 shadow border border-yellow-900">
+                    <h4 id="research" class="font-bold text-yellow-300 mb-1">Дослідження</h4>
+                    <p>Найманці в спеціальному об'єкті збирають інформацію.</p>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 shadow border border-yellow-900">
+                    <h4 id="trade" class="font-bold text-yellow-300 mb-1">Торгівля</h4>
+                    <p>Найманці купують і продають товари або послуги, що зберігаються або виробляються в цьому
+                        спеціальному об'єкті.</p>
+                </div>
+            </div>
+            <h3 id="special-facilities-list" class="text-xl font-semibold text-yellow-200 mt-6 mb-2">Перелік спеціальних приміщень</h3>
+            <div class="overflow-x-auto my-4 rounded-lg shadow-lg">
+                <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+                    <thead>
+                        <tr class="bg-yellow-300 text-gray-900">
+                            <th class="px-4 py-2 font-bold">Рівень</th>
+                            <th class="px-4 py-2 font-bold">Спеціальне приміщення</th>
+                            <th class="px-4 py-2 font-bold">Вартість</th>
+                            <th class="px-4 py-2 font-bold">Передумова</th>
+                            <th class="px-4 py-2 font-bold">Наказ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#arcane-study" class="text-yellow-300 hover:underline">Кабінет таємних знань</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Здатність використовувати <em>Арканічний
+                                    фокус</em> або інструмент як фокус для заклинань</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Створення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#armory" class="text-yellow-300 hover:underline">Арсенал</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Торгівля</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#barrack" class="text-yellow-300 hover:underline">Казарма</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Найм</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#garden" class="text-yellow-300 hover:underline">Сад</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Збирання</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#library" class="text-yellow-300 hover:underline">Бібліотека</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Дослідження</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#Sanctuary" class="text-yellow-300 hover:underline">Святилище</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Здатність використовувати <em>Святий
+                                    символ</em> або <em>Друїдичний фокус</em> як фокус для заклинань</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Створення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#smithy" class="text-yellow-300 hover:underline">Ковальня</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Створення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#storehouse" class="text-yellow-300 hover:underline">Сховище</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Торгівля</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">5</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#workshop" class="text-yellow-300 hover:underline">Майстерня</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">100</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Створення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#gamin-hall" class="text-yellow-300 hover:underline">Гральний зал</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Торгівля</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#greenhouse" class="text-yellow-300 hover:underline">Теплиця</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Збирання</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#laboratory" class="text-yellow-300 hover:underline">Лабораторія</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-*</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Створення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#sacrisity" class="text-yellow-300 hover:underline">Сакристія</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Здатність використовувати <em>Святий
+                                    символ</em> або <em>Друїдичний фокус</em> як фокус для заклинань</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Створення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#scriptorium" class="text-yellow-300 hover:underline">Скрипторій</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-*</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Створення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#stable" class="text-yellow-300 hover:underline">Стайня</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Торгівля</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#teleportation-circle" class="text-yellow-300 hover:underline">Коло Телепортації</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Найм</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#theater" class="text-yellow-300 hover:underline">Театр</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Підсилення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#training-area" class="text-yellow-300 hover:underline">Тренувальна зона</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Підсилення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">9</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#trophy-room" class="text-yellow-300 hover:underline">Кімната з трофеями</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">250</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Дослідження</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">13</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#archive" class="text-yellow-300 hover:underline">Архів</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">500</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Дослідження</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">13</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#meditation-chamber" class="text-yellow-300 hover:underline">Кімната медитації</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">500</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Підсилення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">13</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#menagerie" class="text-yellow-300 hover:underline">Звіринець</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">500</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Найм</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">13</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#observatory" class="text-yellow-300 hover:underline">Обсерваторія</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">500</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Здатність використовувати фокус для заклинань
+                            </td>
+                            <td class="px-2 py-2 border-b border-gray-700">Підсилення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">13</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#pub" class="text-yellow-300 hover:underline">Паб</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">500</td>
+                            <td class="px-2 py-2 border-b border-gray-700">-</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Дослідження</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">13</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#reliquary" class="text-yellow-300 hover:underline">Релікварій</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">500</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Здатність використовувати <em>Святий
+                                    Символ</em> або <em>Друїдичний Фокус</em> як фокус для заклинань</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Збирання</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">17</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#demiplane" class="text-yellow-300 hover:underline">Кишеньковий вимір</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">1000</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Здатність використовувати <em>Арканічний
+                                    Фокус</em> або інструмент як фокус для заклинань</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Підсилення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">17</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#guildhall" class="text-yellow-300 hover:underline">Гільдійна зала</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">1000</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Експертиза в навичці</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Найм</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2 border-b border-gray-700">17</td>
+                            <td class="px-2 py-2 border-b border-gray-700"><a href="#sanctum" class="text-yellow-300 hover:underline">Кімната святих</a></td>
+                            <td class="px-2 py-2 border-b border-gray-700">1000</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Здатність використовувати <em>Святий
+                                    Символ</em> або <em>Друїдичний Фокус</em> як фокус для заклинань</td>
+                            <td class="px-2 py-2 border-b border-gray-700">Підсилення</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700 transition">
+                            <td class="px-2 py-2">17</td>
+                            <td class="px-2 py-2"><a href="#war-room" class="text-yellow-300 hover:underline">Штаб</a></td>
+                            <td class="px-2 py-2">1000</td>
+                            <td class="px-2 py-2">Бойовий стиль або Захист без обладунків</td>
+                            <td class="px-2 py-2">Найм</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="arcane-study" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+                <h3 class="text-lg font-bold text-yellow-300">Кабінет таємних знань</h3>
+                <span class="text-gray-400">Приміщення 5 рівня</span>
+                <ul class="mb-2 text-sm text-gray-200">
+                    <li><span class="font-semibold text-yellow-200">Передумова:</span> Здатність використовувати Магічний фокус або інструмент як фокус для заклинань</li>
+                    <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+                    <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+                    <li><span class="font-semibold text-yellow-200">Наказ:</span> Створення</li>
+                </ul>
+                <p class="mb-2">Кабінет таємних знань — це тихе місце для досліджень, в якому є один або кілька столів і книжкові полиці.</p>
+                <div class="mb-2">
+                    <span class="font-semibold text-yellow-300">Талісман таємної кімнати.</span>
+                    <span>Талісман таємної кімнати. Після тривалого відпочинку у вашому бастіоні ви отримуєте магічний талісман, який існує 7 днів або доти, доки ви його не використаєте. Талісман дозволяє вам застосовувати заклинання <span class="italic">«Ідентифікація»</span> без витрачання слоту заклинання або використання матеріальних компонентів. Ви не можете отримати цей талісман знову, поки він у вас є.
+                </div>
+                <div class="mb-2">
+                    <span class="font-semibold text-yellow-300">Варіанти створення.</span>
+                    <span>Коли ви віддаєте наказ на створення цьому приміщеню, виберіть один із таких варіантів:</span>
+                    <ul class="list-disc pl-6 mt-1 space-y-1">
+                        <li>
+                            <span class="font-semibold text-yellow-200">Створення: Магічний фокус.</span>
+                            <span>Ви доручаєте найманому працівнику об'єкта виготовити Магічний фокус. Робота займає 7 днів і не коштує грошей. Магічний фокус залишається у вашому Бастіоні, поки ви його не заберете.</span>
+                        </li>
+                        <li>
+                            <span class="font-semibold text-yellow-200">Створення: Книга.</span>
+                            <span>Ви доручаєте найманому працівнику об'єкта виготовити порожню книгу. Робота займає 7 днів і коштує вам 10 золотих. Книга залишається у вашому Бастіоні, поки ви її не заберете.</span>
+                        </li>
+                        <li>
+                            <span class="font-semibold text-yellow-200">Створення: Магічний предмет (Аркана).</span>
+                            <span>Якщо ви 9 рівня або вище, ви можете доручити найманому працівнику цього приміщення виготовити звичайний або незвичайний магічний предмет, обраний вами з таблиць Аркани в розділі 7. У приміщенні є інструмент, необхідний для виготовлення предмета, а найманий працівник має навички роботи з цим інструментом, а також навички в Аркані. Дивіться розділ "Виготовлення магічних предметів" у главі 7 для отримання інформації про час і гроші, які потрібно витратити на виготовлення предмета. Якщо предмет дозволяє його користувачу використовувати будь-які заклинання з нього, ви повинні виготовити предмет самостійно (найманий працівник приміщення може допомогти), і ви повинні мати всі ці заклинання підготовленими кожен день, коли ви витрачаєте час на виготовлення предмета.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<div id="archive" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+        <h3 class="text-lg font-bold text-yellow-300">Archive</h3>
+        <span class="text-gray-400">Приміщення 13 рівня</span>
+        <ul class="mb-2 text-sm text-gray-200">
+            <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+            <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+            <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+            <li><span class="font-semibold text-yellow-200">Наказ:</span> Дослідження</li>
+        </ul>
+        <p class="mb-2">An Archive is a repository of valuable books, maps, and scrolls. It is usually attached to a Library behind a locked or secret door.</p>
+        <div class="mb-2">
+            <span class="font-semibold text-yellow-300">Research: Helpful Lore.</span>
+            <span>When you issue the Research order to this facility, you commission the facility’s hireling to search the Archive for helpful lore. The work takes 7 days. The hireling gains knowledge as if they had cast the <span class="italic">Legend Lore</span> spell, then shares this knowledge with you the next time you speak with them.</span>
+        </div>
+        <div class="mb-2">
+            <span class="font-semibold text-yellow-300">Reference Book.</span>
+            <span>Your Archive contains one copy of a rare and valuable reference book, which gives you a benefit while you and the book are in your Bastion. You can choose one of the following options (your DM might make more options available):</span>
+            <ul class="list-disc pl-6 mt-1 space-y-1">
+                <li>
+                    <span class="font-semibold text-yellow-200">Bigby’s Handy Arcana Codex.</span>
+                    <span>You have Advantage on any Intelligence (Arcana) check you make when you take the Study action to recall lore about spells, magic items, eldritch symbols, magical traditions, and planes of existence.</span>
+                </li>
+                <li>
+                    <span class="font-semibold text-yellow-200">The Chronepsis Chronicles.</span>
+                    <span>You have Advantage on any Intelligence (History) check you make when you take the Study action to recall lore about historical events, legendary people, ancient kingdoms, past disputes, wars, and lost civilizations.</span>
+                </li>
+                <li>
+                    <span class="font-semibold text-yellow-200">Investigations of the Inquisitive.</span>
+                    <span>You have Advantage on any Intelligence (Investigation) check you make when you take the Study action to make deductions based on clues or evidence or to recall lore about traps, ciphers, riddles, and gadgetry.</span>
+                </li>
+                <li>
+                    <span class="font-semibold text-yellow-200">Material Musings on the Nature of the World.</span>
+                    <span>You have Advantage on any Intelligence (Nature) check you make when you take the Study action to recall lore about terrain, plants, animals, and the weather.</span>
+                </li>
+                <li>
+                    <span class="font-semibold text-yellow-200">The Old Faith and Other Religions.</span>
+                    <span>You have Advantage on any Intelligence (Religion) check you make when you take the Study action to recall lore about deities, rites and prayers, hierarchies, holy symbols, and the practices of secret cults.</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span class="font-semibold text-yellow-300">Enlarging the Facility.</span>
+            <span>You can enlarge your Archive to a Vast facility by spending 2,000 GP. If you do so, you gain two additional reference books chosen from the list above.</span>
+        </div>
+</div>
+<div id="armory" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Арсенал</h3>
+    <span class="text-gray-400">Приміщення 5 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Торгівля</li>
+    </ul>
+    <p class="mb-2">Арсенал містить манекени для броні, гачки для утримання щитів, стелажі для зберігання зброї та скрині для боєприпасів.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Торгівля: Наповнення Арсеналу.</span>
+        <span>Коли ви віддаєте наказ Торгівлі цьому приміщенню, ви доручаєте найманому працівнику цього приміщення заповнити Арсенал бронею, щитами, зброєю та боєприпасами. Це обладнання коштує вам 100 золотих плюс додаткові 100 золотих за кожного захисника Бастіону у вашому Бастіоні. Якщо у вашому Бастіоні є Ковальня, загальна вартість зменшується вдвічі.</span>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Захист захисників.</span>
+        <span>Поки ваш Арсенал заповнений, ваших захисників Бастіону важче вбити. Коли будь-яка подія змушує вас кидати кубики, щоб визначити, чи ваш Бастіон втрачає одного або кількох своїх захисників (див. "Події Бастіону" в кінці цього розділу), кидайте 1d8 замість кожного d6, який ви зазвичай кидали б. Коли подія закінчиться, обладнання у вашому Арсеналі буде витрачено незалежно від того, скільки захисників Бастіону у вас є або скільки ви втратили, залишаючи ваш Арсенал спустошеним, поки ви не віддасте ще один наказ Торгівлі цьому приміщенню та не сплатите вартість його поповнення.</span>
+    </div>
+</div>
+    <div id="barrack" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+        <h3 class="text-lg font-bold text-yellow-300">Казарма</h3>
+        <span class="text-gray-400">Приміщення 5 рівня</span>
+        <ul class="mb-2 text-sm text-gray-200">
+            <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+            <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+            <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+            <li><span class="font-semibold text-yellow-200">Наказ:</span> Найм</li>
+        </ul>
+        <p class="mb-2">Бастіон може мати більше ніж одну Казарму, кожна з яких обладнана для розміщення до дванадцяти захисників Бастіону.</p>
+        <div class="mb-2">
+            <span class="font-semibold text-yellow-300">Найм: Захисники Бастіону.</span>
+            <span>Кожного разу, коли ви віддаєте наказ Найму цьому приміщенню, до вашого Бастіону наймаються до чотирьох Захисників Бастіону та отримують кімнати в цій Казармі. Найм не коштує грошей. Ви не можете віддати наказ Найму цьому приміщенню, якщо воно повністю зайняте.</span>
+        </div>
+        <p class="mb-2">Ведіть облік Захисників Бастіону, які розміщені в кожній з ваших Казарм. Якщо ви втрачаєте Захисників Бастіону, віднімайте їх з вашого списку. Присвоюйте імена та особистості своїм Захисникам Бастіону на свій розсуд.</p>
+        <div>
+            <span class="font-semibold text-yellow-300">Розширення приміщення.</span>
+            <span>Ви можете розширити свою Казарму до Великої, витративши 2,000 GP. Велика Казарма може вмістити до двадцяти п'яти Захисників Бастіону.</span>
+        </div>
+    </div>
+</div>
+<div id="demiplane" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    
+        <h3 class="text-lg font-bold text-yellow-300">Demiplane</h3>
+        <span class="text-gray-400">Приміщення 17 рівня</span>
+        <ul class="mb-2 text-sm text-gray-200">
+            <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Ability to use an Arcane Focus or a tool as a Spellcasting Focus</li>
+            <li><span class="font-semibold text-yellow-200">Розмір:</span> Велика</li>
+            <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+            <li><span class="font-semibold text-yellow-200">Наказ:</span> Посилення</li>
+        </ul>
+        <p class="mb-2">
+            A door up to 5 feet wide and 10 feet tall appears on a flat, solid surface in one of the other facilities in your Bastion. You choose the location. If you are in your Bastion during a Bastion turn, you can relocate this door to another facility in your Bastion.
+        </p>
+        <p class="mb-2">
+            Only you and your Bastion’s hirelings can open the door, which leads to a Demiplane that takes the form of a stone room. The Demiplane exists in an extradimensional space and therefore isn’t attached physically to other locations in your Bastion. Neither the Demiplane nor its door can be dispelled.
+        </p>
+        <div class="mb-2">
+            <span class="font-semibold text-yellow-300">Empower: Arcane Resilience.</span>
+            <span>When you issue the Empower order to this facility, magical runes appear on the Demiplane’s walls and last for 7 days. Until the runes disappear, you gain Temporary Hit Points equal to five times your level after spending an entire Long Rest in the Demiplane.</span>
+        </div>
+        <div>
+            <span class="font-semibold text-yellow-300">Fabrication.</span>
+            <span>While in the Demiplane, you can take a Magic action to create a nonmagical object of your choice from nothing, causing it to appear in an unoccupied space in the Demiplane. The object can be no bigger than 5 feet in any dimension; can’t have a value over 5 GP; and must be made of wood, stone, clay, porcelain, glass, paper, nonprecious crystal, or nonprecious metal. You must finish a Long Rest before you can take this action again.</span>
+        </div>
+</div>
+
+<div id="gamin-hall" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Gaming Hall</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Велика</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 4</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Торгівля</li>
+    </ul>
+    <p class="mb-2">A Gaming Hall offers recreational activities like chess and games of darts, cards, or dice.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Trade: Gambling Hall.</span>
+        <span>When you issue the Trade order to this facility, the facility’s hirelings turn the Gaming Hall into a gambling den for 7 days. At the end of the seventh day, roll 1d100 and consult the following table to determine your portion of the house’s winnings.</span>
+    </div>
+    <div class="overflow-x-auto my-2 rounded-lg shadow">
+        <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+            <thead>
+                <tr class="bg-yellow-300 text-gray-900">
+                    <th class="px-4 py-2 font-bold">1d100</th>
+                    <th class="px-4 py-2 font-bold">Winnings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">01-50</td>
+                    <td class="px-4 py-2 border-b border-gray-700">1d6 × 10 GP</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">51-85</td>
+                    <td class="px-4 py-2 border-b border-gray-700">2d6 × 10 GP</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">86-95</td>
+                    <td class="px-4 py-2 border-b border-gray-700">4d6 × 10 GP</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2">96-00</td>
+                    <td class="px-4 py-2">10d6 × 10 GP</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="garden" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Сад</h3>
+    <span class="text-gray-400">Приміщення 5 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Збирання</li>
+    </ul>
+    <p class="mb-2">Бастіон може мати більше ніж один Сад. Кожного разу, коли ви додаєте Сад до свого Бастіону, вибирайте його тип з варіантів у таблиці Типи Садів.</p>
+    <p class="mb-2">Під час перебування у вашому Бастіоні ви можете наказати найманцю приміщення змінити Сад з одного типу на інший. Ця робота займає 21 день, протягом яких у цьому приміщенні не може відбуватися жодна інша діяльність.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Збирання: Урожай з саду.</span>
+        <span>Коли ви віддаєте наказ Збирання цьому приміщенню, ви доручаєте найманцю приміщення зібрати предмети з Саду, як зазначено в таблиці Типи Садів. Ця робота займає 7 днів і не коштує грошей.</span>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Розширення приміщення.</span>
+        <span>Ви можете розширити свій Сад до Великого приміщення, витративши 2,000 GP. Великий Сад еквівалентний двом Просторим Садам і може включати два однакових типи Саду або два різних типи. Коли ви віддаєте наказ Збирання Великому Саду, кожен компонентний сад виробляє свій власний урожай. Великий Сад отримує одного додаткового найманця.</span>
+    </div>
+    <div class="overflow-x-auto my-2 rounded-lg shadow">
+        <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+            <thead>
+                <tr class="bg-yellow-300 text-gray-900">
+                    <th class="px-4 py-2 font-bold">Тип Саду</th>
+                    <th class="px-4 py-2 font-bold">Опис</th>
+                    <th class="px-4 py-2 font-bold">Урожай</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Декоративний</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Сад, що естетично привабливий, повний квітів і топіаріїв.</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Десять вишуканих квіткових букетів (вартістю 5 GP кожен), десять флаконів парфумів або десять свічок</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Їжа</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Сад смачних грибів або овочів</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Запасів раціонів на 100 днів</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Трави</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Сад рідкісних трав, деякі з яких мають лікарські властивості</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Трави, що використовуються для створення десяти наборів лікаря або одного зілля лікування</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2">Отрута</td>
+                    <td class="px-4 py-2">Сад, наповнений рослинами та грибами, з яких можна видобувати отрути та антидоти</td>
+                    <td class="px-4 py-2">Рослини, що використовуються для створення двох флаконів антидоту або одного флакона базової отрути</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="greenhouse" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Greenhouse</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Збирання</li>
+    </ul>
+    <p class="mb-2">A Greenhouse is an enclosure where rare plants and fungi are nurtured in a controlled climate.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Fruit of Restoration.</span>
+        <span>One plant in your Greenhouse has three magical fruits growing on it. Any creature that eats one of these fruits gains the benefit of a <span class="italic">Lesser Restoration</span> spell. Fruits that aren’t eaten within 24 hours of being picked lose their magic. The plant replaces all picked fruits daily at dawn, and it can’t be transplanted without killing it.</span>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Harvest Options.</span>
+        <span>When you issue the Harvest order to this facility, choose one of the following options:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Harvest: Healing Herbs.</span>
+                <span>You commission the facility’s hireling to create a Potion of Healing (greater) made from healing herbs. The work takes 7 days and costs no money.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Harvest: Poison.</span>
+                <span>You commission the facility’s hireling to extract one application of a poison from rare plants or fungi. Choose the type of poison from the following options: Assassin’s Blood, Malice, Pale Tincture, or Truth Serum. See “Poison” in chapter 3 for each poison’s effect. Once harvested, the poison can be contained in a vial. The work takes 7 days and costs no money.</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="guildhall" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Guildhall</h3>
+    <span class="text-gray-400">Приміщення 17 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Expertise in a skill</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Велика</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Найм</li>
+    </ul>
+    <p class="mb-2">A Guildhall comes with a guild, for which you are the guild master. Choose the type of guild from the options in the Sample Guilds table, or work with your DM to create a new guild. The facility is a meeting room where members of your guild can discuss important matters in your presence.</p>
+    <p class="mb-2">Your guild has roughly fifty members made up of skilled folk who live and work outside your Bastion, usually in nearby settlements.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Recruit: Guild Assignment.</span>
+        <span>Each time you issue the Recruit order to this facility, you commission the facility’s hireling to recruit guild members to perform a special assignment. Each guild in the Sample Guilds table specifies the nature of that assignment. With your DM’s permission and help, you can create new assignments for guild members to complete.</span>
+    </div>
+    <div class="overflow-x-auto my-2 rounded-lg shadow">
+        <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+            <thead>
+                <tr class="bg-yellow-300 text-gray-900">
+                    <th class="px-4 py-2 font-bold">Guild</th>
+                    <th class="px-4 py-2 font-bold">Symbol</th>
+                    <th class="px-4 py-2 font-bold">Assignment</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Adventurers’ Guild</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Lit torch</td>
+                    <td class="px-4 py-2 border-b border-gray-700 text-left">You send adventurers to track down a Beast that has a Challenge Rating of 2 or lower and is known to lair within 50 miles of your Bastion. The adventurers slay or capture the creature (your choice) in 1d6 + 1 days. If the creature is slain and your Bastion has a Trophy Room, you can add a trophy taken from the creature to that facility. If the creature is captured and your Bastion has a Menagerie, you can add the creature to that facility, provided the facility has space to house it.</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Bakers’ Guild</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Pastry</td>
+                    <td class="px-4 py-2 border-b border-gray-700 text-left">You assign bakers to create baked goods for a prestigious event that occurs within the next 7 days. You can receive payment in coin (500 GP) or in the form of a favor owed to you by the event’s host, the details of which are left to you and the DM.</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Brewers’ Guild</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Foaming mug</td>
+                    <td class="px-4 py-2 border-b border-gray-700 text-left">You assign brewers to deliver fifty 40-gallon barrels of ale (worth 10 GP each) to your Bastion in 7 days.</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Masons’ Guild</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Stone mask</td>
+                    <td class="px-4 py-2 border-b border-gray-700 text-left">You assign masons to add a defensive wall to your Bastion at no cost. Alternatively, you can have the masons perform this work for another character’s Bastion, provided their Bastion is within 1 mile of yours. Each 5-foot square of defensive wall takes 1 day to build instead of 10 (see “Bastion Map”).</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Shipbuilders’ Guild</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Crossed oars</td>
+                    <td class="px-4 py-2 border-b border-gray-700 text-left">You assign shipbuilders to build one of the vehicles in the Airborne and Waterborne Vehicles table of the Player’s Handbook. You pay the full cost of the vehicle, and the work takes 1 day per 1,000 GP of the vehicle’s cost (a Rowboat can be made in 1 day).</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Thieves’ Guild</td>
+                    <td class="px-4 py-2 border-b border-gray-700">White key</td>
+                    <td class="px-4 py-2 border-b border-gray-700 text-left">You assign thieves to infiltrate a location within 50 miles of your Bastion and steal a nonmagical object from it. The object can be no bigger than 5 feet in any dimension and is delivered to your Bastion in 1d6 + 1 days. The DM may decide this activity leaves you at risk of retaliation from law enforcement or the victim.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+    <div id="laboratory" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+        <h3 class="text-lg font-bold text-yellow-300">Laboratory</h3>
+        <span class="text-gray-400">Приміщення 9 рівня</span>
+        <ul class="mb-2 text-sm text-gray-200">
+            <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+            <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+            <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+            <li><span class="font-semibold text-yellow-200">Наказ:</span> Створення</li>
+        </ul>
+        <p class="mb-2">A Laboratory contains storage space for alchemical supplies and workspaces for crafting various concoctions.</p>
+        <div class="mb-2">
+            <span class="font-semibold text-yellow-300">Craft Options.</span>
+            <span>When you issue the Craft order to this facility, choose one of the following options:</span>
+            <ul class="list-disc pl-6 mt-1 space-y-1">
+                <li>
+                    <span class="font-semibold text-yellow-200">Craft: Alchemist’s Supplies.</span>
+                    <span>The facility’s hireling crafts anything that can be made with Alchemist’s Supplies using the rules in the Player’s Handbook and chapter 7 of this book.</span>
+                </li>
+                <li>
+                    <span class="font-semibold text-yellow-200">Craft: Poison.</span>
+                    <span>You commission the facility’s hireling to craft a vial containing one application of a poison. The poison must be one of the following: Burnt Othur Fumes, Essence of Ether, or Torpor. This work takes 7 days, and you must pay half the poison’s cost. See “Poison” in chapter 3 for descriptions and costs of poisons.</span>
+                </li>
+            </ul>
+        </div></div>
+<div id="library" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+
+    <h3 class="text-lg font-bold text-yellow-300">Бібліотека</h3>
+    <span class="text-gray-400">Приміщення 5 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Дослідження</li>
+    </ul>
+    <p class="mb-2">Ця бібліотека містить колекцію книг, а також один або кілька столів і крісел для читання.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Дослідження: Тематичні знання.</span>
+        <span>Коли ви віддаєте наказ на дослідження цьому закладу, ви доручаєте найманцю закладу дослідити певну тему. Тема може бути легендою, відомою подією чи місцем, значущою особою, типом істоти або відомим об'єктом. Робота триває 7 днів. Коли дослідження завершується, найманець отримує до трьох точних відомостей про тему, які раніше були вам невідомі, і ділиться цими знаннями з вами під час наступної розмови. DM визначає, яку інформацію ви дізнаєтеся.</span>
+    </div>
+</div>
+<div id="meditation-chamber" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    
+    <h3 class="text-lg font-bold text-yellow-300">Meditation Chamber</h3>
+    <span class="text-gray-400">Приміщення 13 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Тісна</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Посилення</li>
+    </ul>
+    <p class="mb-2">A Meditation Chamber is a relaxing space that helps align one’s mind, body, and spirit.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Empower: Inner Peace.</span>
+        <span>Your Bastion’s hirelings can use the Meditation Chamber to gain a measure of inner peace. The next time you roll for a Bastion event, you can roll twice and choose either result.</span>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Fortify Self.</span>
+        <span>You can meditate in this facility over a period of 7 days. If you leave the Bastion during this time, you gain no benefit. Otherwise, at the end of the seventh day, you gain Advantage on two kinds of saving throws for the next 7 days, determined randomly by rolling on the table below. Reroll if you get a duplicate result.</span>
+    </div>
+    <div class="overflow-x-auto my-2 rounded-lg shadow">
+        <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+            <thead>
+                <tr class="bg-yellow-300 text-gray-900">
+                    <th class="px-4 py-2 font-bold">1d6</th>
+                    <th class="px-4 py-2 font-bold">Saving Throw</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">1</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Strength</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">2</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Dexterity</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">3</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Constitution</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">4</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Intelligence</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">5</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Wisdom</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2">6</td>
+                    <td class="px-4 py-2">Charisma</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="menagerie" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Menagerie</h3>
+    <span class="text-gray-400">Приміщення 13 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Велика</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 2</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Найм</li>
+    </ul>
+    <p class="mb-2">A Menagerie has enclosures big enough to contain up to four Large creatures. Four Small or Medium creatures can occupy the same space as one Large creature there.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Recruit: Creature.</span>
+        <span>When you issue the Recruit order to this facility, you commission the facility’s hirelings to add a creature from the Menagerie Creatures table to your Menagerie. The recruitment takes 7 days and costs you the amount listed in the table. The hirelings look after the creature.</span>
+    </div>
+    <p class="mb-2">Creatures in your Menagerie count as Bastion Defenders. Deduct any you lose from your Bastion Defenders roster. You can choose not to count one or more of these creatures as Bastion Defenders, in which case they can’t be called on to defend the Bastion. Instead, they act in accordance with their nature and use their stat blocks in the Monster Manual.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Menagerie Creatures</span>
+        <div class="overflow-x-auto my-2 rounded-lg shadow">
+            <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+                <thead>
+                    <tr class="bg-yellow-300 text-gray-900">
+                        <th class="px-4 py-2 font-bold">Creature</th>
+                        <th class="px-4 py-2 font-bold">Size</th>
+                        <th class="px-4 py-2 font-bold">Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Ape</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Medium</td>
+                        <td class="px-4 py-2 border-b border-gray-700">500 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Black Bear</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Medium</td>
+                        <td class="px-4 py-2 border-b border-gray-700">500 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Brown Bear</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">1,000 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Constrictor Snake</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">250 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Crocodile</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">500 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Dire Wolf</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">1,000 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Giant Vulture</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">1,000 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Hyena</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Medium</td>
+                        <td class="px-4 py-2 border-b border-gray-700">50 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Jackal</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Small</td>
+                        <td class="px-4 py-2 border-b border-gray-700">50 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Lion</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">1,000 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Owlbear</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">3,500 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Panther</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Medium</td>
+                        <td class="px-4 py-2 border-b border-gray-700">250 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">Tiger</td>
+                        <td class="px-4 py-2 border-b border-gray-700">Large</td>
+                        <td class="px-4 py-2 border-b border-gray-700">1,000 GP</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <p class="mb-2">With the DM’s consent, you can add different creatures than those shown in the Menagerie Creatures table to your Menagerie. The cost of a creature depends on its Challenge Rating, as shown on the Creature Costs by Challenge Rating table. Typically only Beasts and some Monstrosities can be kept in a Menagerie, though the DM might allow other creatures.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Creature Costs by Challenge Rating</span>
+        <div class="overflow-x-auto my-2 rounded-lg shadow">
+            <table class="min-w-full text-center border-collapse bg-gray-800 rounded-lg">
+                <thead>
+                    <tr class="bg-yellow-300 text-gray-900">
+                        <th class="px-4 py-2 font-bold">Challenge Rating</th>
+                        <th class="px-4 py-2 font-bold">Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">0 or 1/8</td>
+                        <td class="px-4 py-2 border-b border-gray-700">50 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">1/4</td>
+                        <td class="px-4 py-2 border-b border-gray-700">250 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">1/2</td>
+                        <td class="px-4 py-2 border-b border-gray-700">500 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">1</td>
+                        <td class="px-4 py-2 border-b border-gray-700">1,000 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2 border-b border-gray-700">2</td>
+                        <td class="px-4 py-2 border-b border-gray-700">2,000 GP</td>
+                    </tr>
+                    <tr class="hover:bg-gray-700 transition">
+                        <td class="px-4 py-2">3</td>
+                        <td class="px-4 py-2">3,500 GP</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="observatory" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Observatory</h3>
+    <span class="text-gray-400">Приміщення 13 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Ability to use a Spellcasting Focus</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Посилення</li>
+    </ul>
+    <p class="mb-2">Situated atop your Bastion, your Observatory contains a telescope aimed at the night sky.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Observatory Charm.</span>
+        <span>You can use your Observatory to peer into the far corners of Wildspace and the Astral Plane. After spending a Long Rest in your Observatory, you gain a magical Charm (see “Supernatural Gifts” in chapter 3) that lasts for 7 days or until you use it. The Charm allows you to cast <span class="italic">Contact Other Plane</span> without expending a spell slot. You can’t gain this Charm again while you still have it.</span>
+    </div>
+    <div>
+        <span class="font-semibold text-yellow-300">Empower: Eldritch Discovery.</span>
+        <span>When you issue the Empower order to this facility, you enable yourself or the facility’s hireling to explore the eldritch mysteries of the stars for 7 consecutive nights. At the end of that time, roll a die. If the number rolled is even, nothing is gained. If the number rolled is odd, an unknown power bestows one of the following Charms on
+    </div>
+</div>
+<div id="pub" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    
+    <h3 class="text-lg font-bold text-yellow-300">Pub</h3>
+    <span class="text-gray-400">Приміщення 13 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Дослідження</li>
+    </ul>
+    <p class="mb-2">Folks come here to consume tasty beverages and socialize. Your Pub might be a bar, coffee shop, or tea room, and it might have a colorful name, such as the Rusty Flagon or the Dragon’s Loft. The facility’s hireling, who serves as the bartender, maintains a network of spies scattered throughout nearby communities. These spies are useful sources of information and frequent the Pub, often incognito.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Research: Information Gathering.</span>
+        <span>When you issue the Research order to this facility, you commission the Pub’s bartender to gather information from spies who are aware of all important events happening within 10 miles of your Bastion over the next 7 days. During that time, these spies can divulge the location of any creature that is familiar to you, provided the creature is within 50 miles of your Bastion and not hidden by magic or confined to a location that the DM deems is beyond the spy network’s ability to locate. If the spies learn the target’s location, they also learn where that creature has been for the previous 7 days.</span>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Pub Special.</span>
+        <span>The Pub has one magical beverage on tap, chosen from the options below:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Bigby’s Burden.</span>
+                <span>Drinking a pint of this beverage grants you the “enlarge” effect of an Enlarge/Reduce spell that has a duration of 24 hours (no saving throw allowed).</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Kiss of the Spider Queen.</span>
+                <span>Drinking a pint of this beverage grants you the effect of a Spider Climb spell that has a duration of 24 hours.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Moonlight Serenade.</span>
+                <span>Drinking a pint of this beverage gives you Darkvision out to 60 feet for 24 hours. If you already have Darkvision, its range is extended by 60 feet for the same duration.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Positive Reinforcement.</span>
+                <span>Drinking a pint of this beverage gives you Resistance to Necrotic damage for 24 hours.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Sterner Stuff.</span>
+                <span>For 24 hours after drinking a pint of this beverage, you automatically succeed on saving throws to avoid or end the Frightened condition.</span>
+            </li>
+        </ul>
+        <p class="mt-2">At the start of a Bastion turn, you can switch to one of the other options. Your DM may create new options. A pint of this magical beverage loses its magic 24 hours after it’s poured.</p>
+    </div>
+    <div>
+        <span class="font-semibold text-yellow-300">Enlarging the Facility.</span>
+        <span>You can enlarge your Pub to a Vast facility by spending 2,000 GP. If you do so, the Pub can have two magical beverages from the Pub Special list on tap at a time. A Vast Pub gains three additional hirelings, for a total of four. These new hirelings are servers. Assign names and personalities to them as you see fit.</span>
+    </div>
+</div>
+
+<div id="reliquary" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Reliquary</h3>
+    <span class="text-gray-400">Приміщення 13 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Тісна</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Збирання</li>
+    </ul>
+    <p class="mb-2">This vault holds sacred objects.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Reliquary Charm.</span>
+        <span>After spending a Long Rest in your Bastion, you gain a magical Charm (see “Supernatural Gifts”) that lasts for 7 days or until you use it. The Charm allows you to cast <span class="italic">Greater Restoration</span> once without expending a spell slot or using Material components. You can’t gain this Charm again while you still have it.</span>
+    </div>
+    <div>
+        <span class="font-semibold text-yellow-300">Harvest: Talisman.</span>
+        <span>When you issue the Harvest order to this facility, you commission its hireling to produce a specially prepared talisman for your use. The talisman usually takes the form of an amulet, a rune-carved box, or a statuette, but it can be any Tiny, nonmagical object that has religious significance. The work takes 7 days and costs no money. You can use this talisman in place of one spell’s Material components, provided the components have a cost of 1,000 GP or less. If the spell normally consumes its components, the talisman isn’t consumed. After the talisman has been used in this way, it can’t be used again until you return it to your Reliquary and use another Harvest order to prepare it.</span>
+    </div>
+</div>
+
+<div id="sacrisity" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Sacristy</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Створення</li>
+    </ul>
+    <p class="mb-2">A Sacristy serves as a preparation and storage room for the sacred items and religious vestments.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Craft Options.</span>
+        <span>When you issue the Craft order to this facility, choose one of the following options:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Craft: Holy Water.</span>
+                <span>You commission the facility’s hireling to craft a flask of Holy Water. The work takes 7 days and costs no money. You can spend GP during the creation process to increase the potency of the Holy Water. For every 100 GP you spend, up to a maximum of 500 GP, the damage dealt by the Holy Water increases by 1d8.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Craft: Magic Item (Relic).</span>
+                <span>You commission the facility’s hireling to craft a Common or an Uncommon magic item chosen by you from the Relics tables in chapter 7. The facility has the tool required to craft the item, and the hireling has proficiency with that tool as well as proficiency in the Arcana skill. See the “Crafting Magic Items” section in chapter 7 for the time and money that must be spent to craft the item. If the item allows its user to cast any spells from it, you must craft the item yourself (the facility’s hireling can assist), and you must have all those spells prepared every day you spend crafting the item.</span>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <span class="font-semibold text-yellow-300">Spell Refreshment.</span>
+        <span>Having a Sacristy allows you to regain one expended spell slot of level 5 or lower after spending an entire Short Rest in your Bastion. You can’t gain this benefit again until you finish a Long Rest.</span>
+    </div>
+</div>
+<div id="Sanctuary" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+
+    <h3 class="text-lg font-bold text-yellow-300">Святилище</h3>
+    <span class="text-gray-400">Приміщення 5 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Створення</li>
+    </ul>
+    <p class="mb-2">Ікони вашої релігії знаходяться в цьому приміщені, воно містить тихе місце для поклоніння.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Магічний амулет.</span>
+        <span> Після того, як ви провели тривалий відпочинок у вашому святилищі, ви отримуєте магічний амулет (див. «Супернатуральні дари» в главі 3), який триває 7 днів або до використання. Амулет дозволяє вам один раз безкоштовно використати заклинання <span class="italic">Healing Word</span>, не витрачаючи слот заклинання. Ви не можете отримати цей амулет знову, поки він у вас є.</span>
+    </div>
+    <div>
+        <span class="font-semibold text-yellow-300">Створення: Священний фокус.</span>
+        <span>Коли ви видаєте наказ на створення в цьому приміщенні, ви доручаєте найманцю цього приміщення виготовити Друїдичний фокус (дерев’яний жезл) або священний символ. Робота займає 7 днів і не коштує грошей. Предмет залишається у вашому святилищі, поки ви його не заберете.</span>
+    </div>
+</div>
+<div id="sanctum" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+
+    <h3 class="text-lg font-bold text-yellow-300">Sanctum</h3>
+    <span class="text-gray-400">Приміщення 17 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 4</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Посилення</li>
+    </ul>
+    <p class="mb-2">A Sanctum is a place of solace and healing.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Sanctum Charm.</span>
+        <span>After spending a Long Rest in your Bastion, you gain a magical Charm (see “Supernatural Gifts” in chapter 3) that lasts for 7 days or until you use it. The Charm allows you to cast <span class="italic">Heal</span> once without expending a spell slot. You can’t gain this Charm again while you still have it.</span>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Empower: Fortifying Rites.</span>
+        <span>When you issue the Empower order to this facility, you inspire its hirelings to perform daily rites that benefit you or another character you name. The beneficiary doesn’t need to be in the Bastion when the rites are performed to gain their benefit. Each time the beneficiary finishes a Long Rest, they gain Temporary Hit Points equal to your level. This effect lasts for 7 days.</span>
+    </div>
+    <div>
+        <span class="font-semibold text-yellow-300">Sanctum Recall.</span>
+        <span>While the Sanctum exists, you always have the <span class="italic">Word of Recall</span> spell prepared. When you cast <span class="italic">Word of Recall</span>, you can make your Sanctum the destination of the spell instead of another place you have previously designated. In addition, one creature of your choice that arrives in the Sanctum via this spell gains the benefit of a <span class="italic">Heal</span> spell.</span>
+    </div>
+</div>
+
+<div id="scriptorium" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Scriptorium</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Створення</li>
+    </ul>
+    <p class="mb-2">A Scriptorium contains desks and writing supplies.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Craft Options.</span>
+        <span>When you issue the Craft order to this facility, choose one of the following options:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Craft: Book Replica.</span>
+                <span>You commission the facility’s hireling to make a copy of a nonmagical Book. Doing so requires a blank book. The work takes 7 days.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Craft: Spell Scroll.</span>
+                <span>You commission the facility’s hireling to scribe a Spell Scroll containing one Cleric or Wizard spell of level 3 or lower. The facility has the necessary Calligrapher’s Supplies, and the hireling meets all the prerequisites needed to scribe the scroll. The “Crafting Equipment” section in the Player’s Handbook specifies the time needed to scribe the scroll and the cost of the scroll, which you must pay.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Craft: Paperwork.</span>
+                <span>You commission the facility’s hireling to create up to fifty copies of a broadsheet, a pamphlet, or another loose-leaf paper product. The work takes 7 days and costs you 1 GP per copy. At no additional cost in time or money, the facility’s hireling can distribute the paperwork to one or more locations within 50 miles of your Bastion.</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="smithy" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Ковальня</h3>
+    <span class="text-gray-400">Приміщення 5 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 2</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Створення</li>
+    </ul>
+    <p class="mb-2">Ця ковальня містить кузню, ковадло та інші інструменти, необхідні для виготовлення зброї, броні та іншого обладнання.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Варіанти створення.</span>
+        <span>Коли ви видаєте наказ на створення в цьому приміщенні, виберіть один з наступних варіантів:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Створення: Ковальські інструменти.</span>
+                <span>Найманці цього приміщення виготовляють все, що можна зробити за допомогою ковальських інструментів, використовуючи правила з Посібника гравця.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Створення: Магічний предмет (озброєння).</span>
+                <span>Якщо ви 9 рівня або вище, ви можете доручити найманцям цього приміщення виготовити звичайний або незвичайний магічний предмет, обраний вами з таблиць озброєння в главі 7. У приміщенні є інструменти, необхідні для виготовлення предмета, а найманці мають навички роботи з цими інструментами, а також навички в Arcana. Дивіться розділ "Виготовлення магічних предметів" у главі 7, щоб дізнатися про час і гроші, які потрібно витратити на виготовлення предмета. Якщо предмет дозволяє його користувачу використовувати будь-які заклинання з нього, ви повинні виготовити предмет самостійно (найманці приміщення можуть допомогти), і ви повинні мати всі ці заклинання підготовленими кожен день, коли ви витрачаєте час на виготовлення предмета.</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="stable" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Stable</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Торгівля</li>
+    </ul>
+    <p class="mb-2">
+        A Bastion can have more than one Stable. Each Stable you add to your Bastion comes with one Riding Horse or Camel and two Ponies or Mules; see the Player’s Handbook or the Monster Manual for these creatures’ stat blocks. The facility is big enough to house three Large animals. Two Medium creatures occupy the same amount of space as one Large creature there. The facility’s hireling looks after these creatures.
+    </p>
+    <p class="mb-2">
+        After a Beast that can serve as a mount spends at least 14 days in this facility, all Wisdom (Animal Handling) checks made with respect to it have Advantage.
+    </p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Trade: Animals.</span>
+        <span>When you issue the Trade order to this facility, you commission the facility’s hireling to buy or sell one or more mounts at normal cost, keeping the ones you buy in your Stable. The work takes 7 days, and the DM decides what types of animals are available for purchase—horses, ponies, and mules being the most common. The Mounts and Other Animals table in the Player’s
+</div>
+</div>
+<div id="storehouse" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+
+    <h3 class="text-lg font-bold text-yellow-300">Склад</h3>
+    <span class="text-gray-400">Приміщення 5 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Торгівля</li>
+    </ul>
+    <p class="mb-2">
+        Склад - це прохолодний, темний простір, призначений для зберігання товарів з таблиці торгових товарів у главі 7 та з глави 6 Посібника гравця.
+    </p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Торгівля: Товари.</span>
+        <span>
+            Коли ви видаєте наказ на торгівлю в цьому приміщенні, його найманець витрачає наступні 7 днів на закупівлю немагічних предметів загальною вартістю 500 GP або менше та зберігає їх у Складі, або найманець використовує ці 7 днів для продажу товарів у Складі. Ви несете загальні витрати на будь-які покупки, а максимальна вартість придбаних предметів збільшується до 2,000 GP, коли ви досягаєте 9 рівня, і 5,000 GP, коли ви досягаєте
+    </div>
+</div>
+<div id="teleportation-circle" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    
+    <h3 class="text-lg font-bold text-yellow-300">Teleportation Circle</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Найм</li>
+    </ul>
+    <p class="mb-2">
+        Inscribed on the floor of this room is a permanent teleportation circle created by the <span class="italic">Teleportation Circle</span> spell.
+    </p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Recruit: Spellcaster.</span>
+        <span>
+            Each time you issue the Recruit order to this facility, its hireling extends an invitation to a Friendly NPC spellcaster. Roll any die. If the number rolled is odd, the invitee declines the invitation, and you gain no benefit from having issued the order. If the number rolled is even, the invitee accepts the invitation and arrives in your Bastion via your Teleportation Circle.
+        </span>
+    </div>
+    <p class="mb-2">
+        While you are in your Bastion, you can ask the spellcaster to cast one Wizard spell of level 4 or lower; if you are level 17+, the spell’s maximum level increases to 8. The spellcaster is assumed to have the spell prepared. If the spell has one or more Material components that cost money, you must pay for them before the spell can be cast.
+    </p>
+    <p>
+        The spellcaster stays for 14 days or until they cast a spell for you. The spellcaster won’t defend your Bastion and departs immediately if the Bastion is attacked (see “Bastion Events” at the end of the chapter).
+    </p>
+</div>
+<div id="theater" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    
+    <h3 class="text-lg font-bold text-yellow-300">Theater</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Велика</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 4</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Посилення</li>
+    </ul>
+    <p class="mb-2">The Theater contains a stage, a backstage area where props and sets are kept, and a seating area for a small audience.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Empower: Theatrical Event.</span>
+        <span>When you issue the Empower order to this facility, its hirelings begin work on a theatrical production or concert. Rehearsals and other preparations take 14 days, followed by at least 7 days of performances. The performances can continue indefinitely until a new production gets underway.</span>
+    </div>
+    <p class="mb-2">You or another character can contribute to a production in the following ways:</p>
+    <ul class="list-disc pl-6 mb-2 space-y-1">
+        <li>
+            <span class="font-semibold text-yellow-200">Composer/Writer.</span>
+            <span> A character can compose music or write a script for a concert or production that hasn’t started rehearsals yet. This effort takes 14 days.</span>
+        </li>
+        <li>
+            <span class="font-semibold text-yellow-200">Conductor/Director.</span>
+            <span> A character who remains in the Bastion for the entirety of the production can serve as the concert’s conductor or the production’s director.</span>
+        </li>
+        <li>
+            <span class="font-semibold text-yellow-200">Performer.</span>
+            <span> A character who remains in the Bastion for the entirety of the rehearsal period can be a star performer in one or more of the performances; one of the Theater’s hirelings can serve as an understudy for additional performances.</span>
+        </li>
+    </ul>
+    <p class="mb-2">
+        At the end of a rehearsal period, each character who contributed to the concert or production can make a <span class="font-semibold text-yellow-200">DC 15 Charisma (Performance)</span> check. If more of these checks succeed than fail, you and any other character who contributed to the concert or production each gain a <span class="font-semibold text-yellow-300">Theater die</span>, a d6. This die changes to a d8 when you reach level 13 and a d10 when you reach level 17. At any point after the rehearsals end, a character can expend their Theater die to roll it and add the number rolled to one D20 Test they make, immediately after rolling the d20. If a character hasn’t expended their Theater die before gaining another, their first die is lost.
+    </p>
+</div>
+
+<div id="training-area" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+        <h3 class="text-lg font-bold text-yellow-300">Training Area</h3>
+        <span class="text-gray-400">Приміщення 9 рівня</span>
+        <ul class="mb-2 text-sm text-gray-200">
+            <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+            <li><span class="font-semibold text-yellow-200">Розмір:</span> Велика</li>
+            <li><span class="font-semibold text-yellow-200">Найманці:</span> 4</li>
+            <li><span class="font-semibold text-yellow-200">Наказ:</span> Посилення</li>
+        </ul>
+        <p class="mb-2">
+            A Bastion can have more than one Training Area. A Training Area might be an open courtyard, a gymnasium, a music or dance hall, or a cleverly built gauntlet of traps and hazards. It might contain inanimate targets (for weapon practice), padded mats, and other equipment. One of the facility’s hirelings is an expert trainer; the others serve as training partners.
+        </p>
+    
+    <div class="mb-4">
+        <span class="font-semibold text-yellow-300">Expert Trainers</span>
+        <table class="min-w-full text-left border-collapse bg-gray-800 rounded-lg mt-2">
+            <thead>
+                <tr class="bg-yellow-300 text-gray-900">
+                    <th class="px-4 py-2 font-bold">Trainer Type</th>
+                    <th class="px-4 py-2 font-bold">Empower Effect</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Battle Expert</td>
+                    <td class="px-4 py-2 border-b border-gray-700">When you take damage from an attack made with an Unarmed Strike or a weapon, you can take a Reaction to reduce this damage by 1d4.</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Skills Expert</td>
+                    <td class="px-4 py-2 border-b border-gray-700">You gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Performance, Sleight of Hand, or Stealth.</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Tools Expert</td>
+                    <td class="px-4 py-2 border-b border-gray-700">You gain proficiency with one tool of your choice.</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Unarmed Combat Expert</td>
+                    <td class="px-4 py-2 border-b border-gray-700">When you hit with your Unarmed Strike and deal damage, the attack deals an extra 1d4 Bludgeoning damage.</td>
+                </tr>
+                <tr class="hover:bg-gray-700 transition">
+                    <td class="px-4 py-2 border-b border-gray-700">Weapon Expert</td>
+                    <td class="px-4 py-2 border-b border-gray-700">Choose a kind of Simple or Martial weapon, such as Spear or Longbow. If you aren’t proficient with the weapon, you gain proficiency with it. If you already have proficiency with the weapon, you can use its mastery property.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Empower: Training.</span>
+        <span>When you issue the Empower order to this facility, the facility’s hirelings conduct training exercises for the next 7 days. Any character who trains here for at least 8 hours on each of those days gains a benefit at the end of the training period. The benefit depends on which trainer is present in the facility, as noted in the Expert Trainers table. The benefit lasts for 7 </span>
+    </div>
+</div>
+<div id="trophy-room" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    
+    <h3 class="text-lg font-bold text-yellow-300">Trophy Room</h3>
+    <span class="text-gray-400">Приміщення 9 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 1</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Дослідження</li>
+    </ul>
+    <p class="mb-2">
+        This room houses a collection of mementos, such as weapons from old battles, the mounted heads of slain creatures, trinkets plucked from dungeons and ruins, and trophies passed down from ancestors.
+    </p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Research Options.</span>
+        <span>When you issue the Research order to this facility, choose one of the following options:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Research: Lore.</span>
+                <span>You commission the facility’s hireling to research a topic of your choice. The topic can be a legend, any kind of creature, or a famous object. The topic need not be directly related to items on display in the room, as the trophies provide clues to research a wide variety of other subjects. The work takes 7 days. When the research concludes, the hireling obtains up to three accurate pieces of information about the topic that were previously unknown to you and shares this knowledge with you the next time you speak with them. The DM determines what information is learned.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Research: Trinket Trophy.</span>
+                <span>You commission the facility’s hireling to search for a trinket that might be of use to you. The work takes 7 days. When the research concludes, roll any die. If the number rolled is odd, the hireling finds nothing useful. If the number rolled is even, the hireling finds a magic item. Roll on the Implements - Common table in chapter 7 to determine what it is.</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="war-room" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">War Room</h3>
+    <span class="text-gray-400">Приміщення 17 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Prerequisite:</span> Fighting Style feature or Unarmored Defense feature</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Велика</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 2+ <span class="text-gray-400">(див. нижче)</span></li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Найм</li>
+    </ul>
+    <p class="mb-2">
+        The War Room is where you plan military actions in consultation with an inner circle of loyal lieutenants, each one a battle-hardened Veteran Warrior (see the Monster Manual) whose alignment matches yours. You start with two lieutenants but can add more, as described below. If your Bastion lacks facilities to house your lieutenants, they secure accommodations in the inn or settlement closest to your Bastion. Lieutenants are hirelings, not Bastion Defenders; however, if your Bastion is attacked (see “Bastion Events” at the end of this chapter), each lieutenant housed in your Bastion reduces by 1 the number of dice you roll to determine how many Bastion Defenders are lost in the attack.
+    </p>
+    <p class="mb-2">
+        The War Room contains war memorabilia plus a large table surrounded by enough chairs for you and your lieutenants.
+    </p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Recruit Options.</span>
+        <span>When you issue the Recruit order to this facility, choose one of the following options:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Recruit: Lieutenant.</span>
+                <span>You gain one new lieutenant. You can have up to ten lieutenants at any time. Assign names and personalities to them as you see fit.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Recruit: Soldiers.</span>
+                <span>You commission one or more of your lieutenants to assemble a small army. Each lieutenant can muster one hundred Guards (see the Monster Manual) in 7 days to fight for your cause. Reduce that number to twenty if you want them to be mounted on Riding Horses (see the Monster Manual). It costs you 1 GP per day to feed each guard and each horse in your army. Wherever the army goes, it must be led by you or at least one of your lieutenants, or else it disbands immediately. The army also disbands if it goes 1 day without being fed. Otherwise, the army remains until it is destroyed or you command it to disband. You can’t issue this Recruit order again until your current army disbands or is destroyed.</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="workshop" class="border-2 border-solid border-amber-300/90 rounded-md px-4 py-2 my-2">
+    <h3 class="text-lg font-bold text-yellow-300">Майстерня</h3>
+    <span class="text-gray-400">Приміщення 5 рівня</span>
+    <ul class="mb-2 text-sm text-gray-200">
+        <li><span class="font-semibold text-yellow-200">Передумова:</span> Відсутня</li>
+        <li><span class="font-semibold text-yellow-200">Розмір:</span> Простора</li>
+        <li><span class="font-semibold text-yellow-200">Найманці:</span> 3</li>
+        <li><span class="font-semibold text-yellow-200">Наказ:</span> Створення</li>
+    </ul>
+    <p class="mb-2">Ця майстерня - це творче простір, де можна виготовляти корисні предмети.</p>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Інструменти ремісника.</span>
+        <span>Майстерня обладнана шістьма різними видами інструментів ремісника, вибраними з наступного списку:</span>
+        <ul class="grid grid-cols-3 gap-3 mb-4 mt-1 space-y-1">
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти столяра</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти взуттєра</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти скляра</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти ювеліра</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти шевця</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти каменяра</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти живописця</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти гончара</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти майстра-ремісника</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти ткача</li>
+            <li class="bg-gray-800 rounded-lg px-4 py-2 shadow border border-yellow-900">Інструменти різьбяра по дереву</li>
+        </ul>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Варіанти створення.</span>
+        <span>Коли ви видаєте замовлення на створення в цій майстерні, виберіть один з наступних варіантів:</span>
+        <ul class="list-disc pl-6 mt-1 space-y-1">
+            <li>
+                <span class="font-semibold text-yellow-200">Створення: Спорядження для пригод.</span>
+                <span>Працівники майстерні виготовляють все, що можна зробити за допомогою інструментів, які ви вибрали, коли додали майстерню до свого бастіону (див. вище), використовуючи правила з Посібника гравця.</span>
+            </li>
+            <li>
+                <span class="font-semibold text-yellow-200">Створення: Магічний предмет (інструмент).</span>
+                <span>Якщо ви 9 рівня або вище, ви можете замовити у працівників майстерні виготовлення магічного предмета загального або незвичайного типу, обраного вами з таблиць предметів у главі 7. Майстерня має інструмент, необхідний для виготовлення предмета, а працівники мають навички роботи з цим інструментом, а також навички в Arcana. Див. розділ "Виготовлення магічних предметів" у главі 7 для отримання інформації про час і гроші, які потрібно витратити на виготовлення предмета. Якщо предмет дозволяє його користувачу використовувати будь-які заклинання з нього, ви повинні виготовити предмет самостійно (працівники майстерні можуть допомогти), і ви повинні мати всі ці заклинання підготовленими кожен день, коли ви витрачаєте час на виготовлення предмета.</span>
+            </li>
+        </ul>
+    </div>
+    <div class="mb-2">
+        <span class="font-semibold text-yellow-300">Джерело натхнення.</span>
+        <span>Після того, як ви провели цілий короткий відпочинок у своїй майстерні, ви отримуєте Героїчне натхнення. Ви не можете отримати цю вигоду знову, поки не закінчите тривалий відпочинок.</span>
+    </div>
+    <div>
+        <span class="font-semibold text-yellow-300">Розширення майстерні.</span>
+        <span>Ви можете розширити свою майстерню до великої майстерні, витративши 2,000 GP. Якщо ви це зробите, майстерня отримає двох додаткових працівників і три додаткових набори ремісничих інструментів (обрані зі списку вище).</span>
+    </div>
+</div>
+</div>
+            <h2 id="bastion-events" class="text-2xl font-semibold text-yellow-300 mt-8 mb-2">Події в бастіоні</h2>
+            <p class="mb-2">Відразу після того, як персонаж віддає наказ «Утримувати» своєму бастіону, майстер гри кидає
+                кубик один раз на таблиці подій в бастіоні, щоб визначити, яка подія, якщо така є, трапиться в бастіоні
+                до наступного ходу бастіону. Якщо подія трапляється, майстер гри зачитує її вголос гравцеві, чий
+                персонаж контролює цей бастіон. Подія вібувається негайно, а гравець і ДМ спільно розширюють деталі
+                історії за потреби. Якщо кілька персонажів віддають наказ «Утримувати» в один і той самий хід бастіону,
+                кидайте кубик один раз за таблицею для кожного з них, вирішуючи кожну подію окремо, навіть якщо бастіони
+                об'єднані.</p>
+            <p class="mb-4">Події в бастіоні відбуваються тільки тоді, коли бастіон діє за наказом «Утримувати», що
+                часто означає, що власник бастіону в цей час не присутній у бастіоні. Це означає, що ці події можуть
+                стати для гравця можливістю взяти на себе роль найманців бастіону і розіграти їхні реакції на ці події.
+                ДМ може навіть перетворити подію бастіону на кат-сцену, де кожен гравець бере на себе роль одного з
+                найманців бастіону (під керівництвом гравця, чий персонаж є власником бастіону).</p>
+        </article>
+    </main>
+</body>
+
+</html>
